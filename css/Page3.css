@@ -47,12 +47,56 @@ text-decoration: none;
 font-weight: bold;
    }
 
-   section {
+   .cards-container {
 grid-area: section;
 background-color: #f4f4f4;
 padding: 20px;
 text-align: center;
    }
+
+   .cards-container h2 {
+margin-bottom: 20px;
+color: #333;
+   }
+
+
+   .card img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 1px solid #1abc9c;
+    }
+
+   .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+     /* flex-wrap: wrap; */
+   }
+
+   .card {
+   
+      background-color: white;
+      border: 1px solid #1abc9c;
+      border-radius: 8px;
+      width: 200px;
+      padding: 15px;
+      text-align: center;
+
+   }
+
+   
+   .card h3 {
+      margin: 10px;
+      font-size: 18px;
+      color: #1abc9c;
+   }
+
+   .card p {
+      color: #555;
+   }
+
+
 
    footer {
 grid-area: footer;
